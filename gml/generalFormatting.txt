@@ -1,0 +1,7 @@
+steps!
+	basic "frame" where the engine runs thru things every step
+	define step rate per room
+	make local variables more often
+	for loops can almost always use i
+		it wont conflict unless its nested for loops
+	

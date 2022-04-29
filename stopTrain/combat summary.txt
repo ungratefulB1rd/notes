@@ -1,0 +1,27 @@
+begin player turn - 0.1
+	start of turn effects
+		mana regen
+		items
+		character effects 
+combat -0.2 + 0.3 + 0.4
+	start of combat effects
+	wait for player action (spells + items + menu + skip)
+	execute player action
+	update state based actions
+	back to line 7 or forward to wrapup
+wrapup - 0.5
+	win/lose?
+	end of turn effects
+	
+begin enemy turn
+	start of turn effects
+combat
+	start of combat effects
+	ai chooses moves for each enemy
+	execute enemy actions
+	update state based actions
+wrapup
+	win/lose?
+	end of turn effects
+	
+oMod

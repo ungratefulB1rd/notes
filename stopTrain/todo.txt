@@ -1,0 +1,6 @@
+pointer
+	program execution of 
+add move function
+
+
+structs for enemy variables and such

@@ -1,0 +1,5 @@
+generally
+	brighter highlights shift towards yellow and decrease saturation/increase brightness
+	darker shading shifts towards purple and decreases brightness/increase saturation
+		can also decrease saturation for more natural looking shading at the cost of vibrance
+hue shifting is certainly necessary but the amount u shift can vary

@@ -1,0 +1,19 @@
+emptyStruct = {};
+fullStruct =
+{
+	thing1 : 1.0,
+	thing2 : 2.0,
+	thing3 : "three point oh",
+	thing4 : function(a, b)
+		{
+			return(a+b);
+		},
+}
+
+fullStruct.thing4(fullStruct.thing1, fullStruct.thing2);
+	//outputs 4
+good for defining entities
+
+struct functions
+	call function using structName.functionName();
+	executes the function 

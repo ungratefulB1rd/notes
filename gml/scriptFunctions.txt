@@ -1,0 +1,36 @@
+function <name>( <param1>, <param2>, ...)
+{
+	<statement>;
+	<statement>;
+}
+//basic world funtion defenition
+//great for blocks of code i will use in many places
+//can group blocks of functions together in a single script file
+
+function bolt(target, modifier)
+{
+	target[hp] = target[hp] - (3*modifer);
+}
+//example of a basic function
+
+function move(spd, dir = 90)
+{
+    speed = spd;
+    direction = dir;
+}
+//if dir is not given will default to 90, otherwise uses given dir
+
+function aliveCheck(target)
+{
+	if target[hp] == 0
+	{
+		return 0;
+	}
+	
+	return 1;
+}
+//functions can return outputs using the return command
+
+
+//scripts are global by default
+//any variables defined in a script are global

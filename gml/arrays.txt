@@ -1,0 +1,8 @@
+array1 = []; //creates an empty array
+array2 = array_create(5, 0); //creates an array w 5 slots (0-4) all equaling 0
+
+	array2[0] = 16;
+	array2[1] = 8;
+	array2[2] = array2[0]/array2[1]
+//defines array2[2] as 2
+//define arrays at the largest size you expect them to be so they dont re-allocate more memory every time

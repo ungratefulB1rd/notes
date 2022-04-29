@@ -1,0 +1,10 @@
+/// @func       					functionName(param1, param2, optionalParam3, ...)
+/// @desc							basic description of the function
+/// @param param1					description of first parameter 
+/// @param {param type} param2		{} signify param type
+/// @param [optionalParam3]			brackets signify optional parameters
+
+functionName(param1, param2, optionalParam3, ...)
+{
+	//function code
+}
